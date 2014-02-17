@@ -35,7 +35,8 @@
                         [(#\() "\\)"]
                         [(#\[) "\\]"]
                         [(#\{) "\\}"]
-                        [else (string opening-char)]))
+                        [(#\<) ">"]
+                        [else (regexp-quote (string opening-char))]))
   
   (define regex (pregexp (string-append "^.*?" closing-str)))
   
