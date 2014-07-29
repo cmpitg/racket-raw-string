@@ -17,7 +17,7 @@ raw string syntax, so that you can write things like:
 
 ## Installation ##
 
-To install Rackjure with Racket 5.3.4 and newer:
+To install `racket-raw-string` with Racket 5.3.4 and newer:
 
 ```sh
 raco pkg install racket-raw-string
